@@ -1,15 +1,16 @@
-use employees;
+-- Use db
+USE employees_db;
 
-INSERT INTO department
-    (name)
+-- Inset data into Departments Table
+INSERT INTO departments (department_name)
 VALUES
     ('Sales'),
     ('Engineering'),
     ('Finance'),
     ('Legal');
 
-INSERT INTO role
-    (title, salary, department_id)
+-- Inset data into Roles Table
+INSERT INTO roles (role_title, role_salary, department_id)
 VALUES
     ('Sales Lead', 100000, 1),
     ('Salesperson', 80000, 1),
@@ -20,8 +21,8 @@ VALUES
     ('Legal Team Lead', 250000, 4),
     ('Lawyer', 190000, 4);
 
-INSERT INTO employee
-    (first_name, last_name, role_id, manager_id)
+-- Inset data into Employees Table
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
     ('John', 'Doe', 1, NULL),
     ('Mike', 'Chan', 2, 1),
