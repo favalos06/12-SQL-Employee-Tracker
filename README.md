@@ -20,6 +20,10 @@ Perform an npm install. Load the schema.sql and then the seeds.sql using the SOU
 
 ## Usage
 Run the program using 'node index' and select the desired action from the list of options. The options allow users to view, add, and edit employees, roles, and departments within the database.
+
+Link to Demo Video: https://drive.google.com/file/d/1JhFS9E30TaEkji2fxTixHkITQaiMUwPG/view?usp=sharing
+
+Screenshot:
 ![Screenshot of Project](assets/images/screenshot.png)
 
 ## License
